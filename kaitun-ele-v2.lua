@@ -29,13 +29,13 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Sell Every"] = 50,
     },
     ["Doing Quest"] = {
-        ["Auto Ghostfinn Rod"] = false,
+        ["Auto Ghostfinn Rod"] = true,
         ["Auto Element Rod"] = false,
-        ["Auto Element Rod 2"] = false,
+        ["Auto Element Rod 2"] = true,
         ["Auto Diamond Rod"] = false,
         ["Unlock Ancient Ruin"] = false,
         ["Allowed Sacrifice"] = {"Ghost Shark", "Cryoshade Glider", "Panther Eel", "Queen Crab", "King Crab", "Giant Squid", "Blob Shark", "Ghost Shark", "King Jelly", "Mossasaur Shark", "Viridis Lurker", "Bone Whale", "Elshark Gran Maja"},
-        ["FARM_LOC_SECRET_SACRIFICE"] = "Ocean",
+        ["FARM_LOC_SECRET_SACRIFICE"] = "Ancient Ruin",
         ["Minimum Rod"] = "Astral Rod",
     },
     ["WebHook"] = {
