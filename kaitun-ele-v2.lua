@@ -29,9 +29,9 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Sell Every"] = 50,
     },
     ["Doing Quest"] = {
-        ["Auto Ghostfinn Rod"] = true,
+        ["Auto Ghostfinn Rod"] = false,
         ["Auto Element Rod"] = false,
-        ["Auto Element Rod 2"] = true,
+        ["Auto Element Rod 2"] = false,
         ["Auto Diamond Rod"] = false,
         ["Unlock Ancient Ruin"] = false,
         ["Allowed Sacrifice"] = {"Ghost Shark", "Cryoshade Glider", "Panther Eel", "Queen Crab", "King Crab", "Giant Squid", "Blob Shark", "Ghost Shark", "King Jelly", "Mossasaur Shark", "Viridis Lurker", "Bone Whale", "Elshark Gran Maja"},
