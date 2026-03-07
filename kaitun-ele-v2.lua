@@ -19,6 +19,11 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Fish Name"] = {
             "Sacred Guardian Squid",
+            "Gladiator Shark",
+            "Giant Squid",
+            "Mossasaur Shark",
+            "Elshark Gran Maja",
+            "Depthseeker Ray",
             {Name = "Ruby", Variant = "Gemstone"}
         },
         ["Item Name"] = {"Evolved Enchant Stone"},
