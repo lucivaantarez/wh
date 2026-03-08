@@ -62,10 +62,10 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Enchant"] = {
         ["Auto Enchant"] = false,
-        ["Roll Enchant"] = true,
-        ["Evolved Roll Enchant"] = true,
+        ["Roll Enchant"] = false,
+        ["Evolved Roll Enchant"] = false,
         ["Enchant List"] = {"Cursed"},
-        ["Second Enchant"] = true,
+        ["Second Enchant"] = false,
         ["Allowed Sacrifice"] = {""},
         ["Second Enchant List"] = {
             "Perfection",
@@ -73,7 +73,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Reeler I",
             "Mutation Hunter II",
         },
-        ["Minimum Rod"] = "Element Rod",
+        ["Minimum Rod"] = "Ghostfinn Rod",
     },
     ["Bait List"] = {
         ["Auto Buying"] = true,
