@@ -61,11 +61,11 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
     ["Enchant"] = {
-        ["Auto Enchant"] = false,
-        ["Roll Enchant"] = true,
+        ["Auto Enchant"] = true,
+        ["Roll Enchant"] = false,
         ["Evolved Roll Enchant"] = false,
         ["Enchant List"] = {"Cursed"},
-        ["Second Enchant"] = false,
+        ["Second Enchant"] = true,
         ["Allowed Sacrifice"] = {""},
         ["Second Enchant List"] = {
             "Perfection",
