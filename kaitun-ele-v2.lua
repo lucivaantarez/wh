@@ -34,7 +34,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Element Rod 2"] = true,
         ["Auto Diamond Rod"] = false,
         ["Unlock Ancient Ruin"] = false,
-        ["Allowed Sacrifice"] = {"Ghost Shark", "Cryoshade Glider", "Panther Eel", "Queen Crab", "King Crab", "Blob Shark", "Ghost Shark"},
+        ["Allowed Sacrifice"] = {"Ghost Shark", "Cryoshade Glider", "Panther Eel", "Queen Crab", "King Crab", "Blob Shark", "Ghost Shark", "Giant Squid, "Mossasaur Shark", "Panther Eel", "Bone Whale", "Viridis Lurker", "Bone Whale", "King Jelly"},
         ["FARM_LOC_SECRET_SACRIFICE"] = "Ocean",
         ["Minimum Rod"] = "Astral Rod",
     },
