@@ -19,11 +19,6 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Fish Name"] = {
             "Sacred Guardian Squid",
-            "Gladiator Shark",
-            "Giant Squid",
-            "Mossasaur Shark",
-            "Elshark Gran Maja",
-            "Depthseeker Ray",
             {Name = "Ruby", Variant = "Gemstone"}
         },
         ["Item Name"] = {"Evolved Enchant Stone"},
@@ -31,7 +26,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Selling"] = {
         ["Auto Sell"] = true,
         ["Auto Sell Threshold"] = "Mythic",
-        ["Auto Sell Every"] = 50,
+        ["Auto Sell Every"] = 40,
     },
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
@@ -47,7 +42,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Link Webhook"] = "https://discord.com/api/webhooks/1419857298951639160/HslxxzTZiGKyfpVesZQpaYZW37jrZS4quH0XX9yHbORB9WkeBLeb75wVFIEktzSUzuQd",
         ["Auto Sending"] = true,
         ["Category"] = {"Secret"},
-        ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1474187440800399557/STgFv_IjxLLWKCa6h2IPW25v1bNR3o9BSz1JPARmKjQr4C2lWVthRDFtaNBx2_qlln1s",
+        ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1480049444891398329/jmwMBVo76ZLowVNQW-R5WeN03iWlJ_OkFBGxHJhjtYJlW7f0BOdHE0tHN3YP-H6Xswjo",
     },
     ["Weather"] = {
         ["Auto Buying"] = true,
@@ -67,18 +62,20 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Enchant"] = {
         ["Auto Enchant"] = false,
-        ["Roll Enchant"] = false,
-        ["Evolved Roll Enchant"] = false,
-        ["Enchant List"] = {"Cursed"},
-        ["Second Enchant"] = false,
+        ["Roll Enchant"] = true,
+        ["Evolved Roll Enchant"] = true,
+        ["Enchant List"] = {
+            "Cursed"
+        },
+        ["Second Enchant"] = true,
         ["Allowed Sacrifice"] = {""},
         ["Second Enchant List"] = {
-            "Reeler I",
+            "Perfection",
             "Cursed",
+            "Reeler I",
             "Mutation Hunter II",
-            "Prismatic I",
         },
-        ["Minimum Rod"] = "Ghostfinn Rod",
+        ["Minimum Rod"] = "Element Rod",
     },
     ["Bait List"] = {
         ["Auto Buying"] = true,
