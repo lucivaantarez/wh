@@ -34,20 +34,27 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Element Rod 2"] = true,
         ["Auto Diamond Rod"] = false,
         ["Unlock Ancient Ruin"] = false,
-        ["Allowed Sacrifice"] = {"Ghost Shark", "Cryoshade Glider", "Panther Eel", "Queen Crab", "King Crab", "Blob Shark", "Ghost Shark", "Giant Squid", "Mosasaur Shark", "Panther Eel", "Bone Whale", "Viridis Lurker", "Bone Whale", "King Jelly"},
-        ["FARM_LOC_SECRET_SACRIFICE"] = "Ocean",
+        ["Allowed Sacrifice"] = {"Ghost Shark", "Cryoshade Glider", "Panther Eel", "Queen Crab", "King Crab", "Blob Shark", "Ghost Shark", "Giant Squid", "Mosasaur Shark", "Panther Eel", "Bone Whale", "Viridis Lurker", "Bone Whale", "King Jelly", "Elshark Gran Maja", "Depthseeker Ray", "Kraken", "Mossasaur Shark", "Gladiator Shark"},
+        ["FARM_LOC_SECRET_SACRIFICE"] = "Treasure Room",
         ["Minimum Rod"] = "Astral Rod",
     },
     ["WebHook"] = {
         ["Link Webhook"] = "https://discord.com/api/webhooks/1419857298951639160/HslxxzTZiGKyfpVesZQpaYZW37jrZS4quH0XX9yHbORB9WkeBLeb75wVFIEktzSUzuQd",
         ["Auto Sending"] = true,
-        ["Category"] = {"Secret"},
+        ["Category"] = {
+            "Secret",
+            {Name = "Ruby", Variant = "Gemstone"},
+        },
         ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1480049444891398329/jmwMBVo76ZLowVNQW-R5WeN03iWlJ_OkFBGxHJhjtYJlW7f0BOdHE0tHN3YP-H6Xswjo",
     },
     ["Weather"] = {
         ["Auto Buying"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
-        ["Weather List"] = {"Wind", "Storm", "Cloudy"},
+        ["Weather List"] = {
+            "Wind", 
+            "Storm", 
+            "Cloudy"
+        },
     },
     ["Potions"] = {
         ["Auto Use"] = true,
@@ -57,23 +64,27 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
-            ["Luck Totem"] = 5
+            ["Mutatoon Totem"] = 20
         },
     },
     ["Enchant"] = {
-        ["Auto Enchant"] = false,
+        ["Auto Enchant"] = true,
         ["Roll Enchant"] = false,
         ["Evolved Roll Enchant"] = false,
-        ["Enchant List"] = {"Cursed"},
-        ["Second Enchant"] = false,
+        ["Enchant List"] = {
+            "Cursed",
+            "Reeler I",
+            "SECRET Hunter",
+            "Mutation Hunter III",
+        },
+        ["Second Enchant"] = true,
         ["Allowed Sacrifice"] = {""},
         ["Second Enchant List"] = {
             "Perfection",
             "Cursed",
-            "Reeler I",
-            "Mutation Hunter II",
+            "Reeler I"
         },
-        ["Minimum Rod"] = "Ghostfinn Rod",
+        ["Minimum Rod"] = "Element Rod",
     },
     ["Bait List"] = {
         ["Auto Buying"] = true,
@@ -88,7 +99,7 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Astral Rod"},
             ["Kohana"] = {"Ares Rod"},
-            ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod"}
+            ["Treasure Room"] = {"Element Rod", "Ghostfinn Rod"}
         },
         ["Endgame"] = "Element Rod",
     },
