@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # ================================================
-# SATURNITY HOPPER v2.2
+# SATURNITY HOPPER v2.7
 # @lanavienrose | github: lucivaantarez
 # ================================================
 
