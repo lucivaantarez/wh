@@ -13,7 +13,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Auto Trade"] = {
         ["Enabled"] = true,
-        ["Whitelist Username"] = {"lanapienrose"},
+        ["Whitelist Username"] = {"0xC1P4"},
         ["Category Fish"] = {
             "Secret"
         },
@@ -82,7 +82,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Second Enchant List"] = {
             "Perfection",
             "Cursed",
-            "Reeler I"
+            "Reeler I",
         },
         ["Minimum Rod"] = "Element Rod",
     },
@@ -103,7 +103,7 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Endgame"] = "Element Rod",
     },
-    ["ExtremeFpsBoost"] = false,
+    ["ExtremeFpsBoost"] = true,
     ["UltimatePerformance"] = false,
     ["Disable3DRender"] = false,
     ["AutoRemovePlayer"] = true,
