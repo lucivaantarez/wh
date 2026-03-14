@@ -39,12 +39,11 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Astral Rod",
     },
     ["WebHook"] = {
-        ["Link Webhook"] = "https://discord.com/api/webhooks/1419857298951639160/HslxxzTZiGKyfpVesZQpaYZW37jrZS4quH0XX9yHbORB9WkeBLeb75wVFIEktzSUzuQd",
-        ["Auto Sending"] = true,
         ["Category"] = {
             "Secret",
             {Name = "Ruby", Variant = "Gemstone"},
-        },
+        ["Item Name"] = {"Evolved Enchant Stone"},
+        ["Link Webhook"] = "https://discord.com/api/webhooks/1419857298951639160/HslxxzTZiGKyfpVesZQpaYZW37jrZS4quH0XX9yHbORB9WkeBLeb75wVFIEktzSUzuQd",
         ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1480049444891398329/jmwMBVo76ZLowVNQW-R5WeN03iWlJ_OkFBGxHJhjtYJlW7f0BOdHE0tHN3YP-H6Xswjo",
     },
     ["Weather"] = {
@@ -74,8 +73,6 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Enchant List"] = {
             "Cursed",
             "Reeler I",
-            "SECRET Hunter",
-            "Mutation Hunter III",
         },
         ["Second Enchant"] = true,
         ["Allowed Sacrifice"] = {""},
@@ -99,7 +96,7 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Astral Rod"},
             ["Kohana"] = {"Ares Rod"},
-            ["Treasure Room"] = {"Element Rod", "Ghostfinn Rod"}
+            ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod"}
         },
         ["Endgame"] = "Element Rod",
     },
