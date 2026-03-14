@@ -56,7 +56,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Weather List"] = {
             "Wind", 
             "Storm", 
-            "Cloudy"
+            "Cloudy",
         },
     },
     ["Potions"] = {
@@ -77,6 +77,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Enchant List"] = {
             "Cursed",
             "Reeler I",
+            "Mutation Hunter II,
         },
         ["Second Enchant"] = true,
         ["Allowed Sacrifice"] = {""},
@@ -100,7 +101,7 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Astral Rod"},
             ["Kohana"] = {"Ares Rod"},
-            ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod"}
+            ["Treasure Room"] = {"Element Rod", "Ghostfinn Rod"}
         },
         ["Endgame"] = "Element Rod",
     },
