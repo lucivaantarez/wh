@@ -6,7 +6,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Unfavorite"] = false,
         ["Fish Name"] = {
             "Sacred Guardian Squid",
-            {Name = "Ruby", Variant = "Gemstone"}
+            {Name = "Ruby", Variant = "Gemstone"},
         },
         ["Auto Accept Trade"] = true,
         ["Auto Friend Request"] = false,
@@ -15,11 +15,11 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Enabled"] = true,
         ["Whitelist Username"] = {"0xC1P4"},
         ["Category Fish"] = {
-            "Secret"
+            "Secret",
         },
         ["Fish Name"] = {
             "Sacred Guardian Squid",
-            {Name = "Ruby", Variant = "Gemstone"}
+            {Name = "Ruby", Variant = "Gemstone"},
         },
         ["Item Name"] = {"Evolved Enchant Stone"},
     },
@@ -34,20 +34,20 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Element Rod 2"] = true,
         ["Auto Diamond Rod"] = false,
         ["Unlock Ancient Ruin"] = false,
-        ["Allowed Sacrifice"] = {"Ghost Shark", "Cryoshade Glider", "Panther Eel", "Queen Crab", "King Crab", "Blob Shark", "Ghost Shark", "Giant Squid", "Mosasaur Shark", "Panther Eel", "Bone Whale", "Viridis Lurker", "Bone Whale", "King Jelly", "Elshark Gran Maja", "Depthseeker Ray", "Kraken", "Mossasaur Shark", "Gladiator Shark"},
+        ["Allowed Sacrifice"] = {"Cryoshade Glider", "Panther Eel", "Queen Crab", "King Crab", "Giant Squid", "Mosasaur Shark", "Panther Eel", "Bone Whale", "Viridis Lurker", "Bone Whale", "King Jelly", "Elshark Gran Maja", "Depthseeker Ray", "Kraken", "Mossasaur Shark", "Gladiator Shark"},
         ["FARM_LOC_SECRET_SACRIFICE"] = "Treasure Room",
         ["Minimum Rod"] = "Astral Rod",
     },
     ["WebHook"] = {
-        ["Link Webhook"] = "https://discord.com/api/webhooks/1419857298951639160/HslxxzTZiGKyfpVesZQpaYZW37jrZS4quH0XX9yHbORB9WkeBLeb75wVFIEktzSUzuQd",
         ["Category"] = {
             "Secret",
             {Name = "Ruby", Variant = "Gemstone"},
-            {Name = "Sacred Guardian Squid"}
+            {Name = "Sacred Guardian Squid"},
         },
         ["Item Name"] = {
             "Evolved Enchant Stone",
         },
+        ["Link Webhook"] = "https://discord.com/api/webhooks/1419857298951639160/HslxxzTZiGKyfpVesZQpaYZW37jrZS4quH0XX9yHbORB9WkeBLeb75wVFIEktzSUzuQd",
         ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1480049444891398329/jmwMBVo76ZLowVNQW-R5WeN03iWlJ_OkFBGxHJhjtYJlW7f0BOdHE0tHN3YP-H6Xswjo",
     },
     ["Weather"] = {
@@ -70,6 +70,13 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Mutation Totem"] = 20
         },
     },
+    ["Event"] = {
+        ["Start Farm"] = true,
+        ["Minimum Rod"] = "Ghostfinn Rod",
+        ["Event List"] = {
+            ["Mutant Runic Koi"] = true,
+        },
+    },
     ["Enchant"] = {
         ["Auto Enchant"] = true,
         ["Roll Enchant"] = false,
@@ -77,7 +84,9 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Enchant List"] = {
             "Cursed",
             "Reeler I",
+            "Mutation Hunter III",
             "Mutation Hunter II",
+            "SECRET Hunter",
         },
         ["Second Enchant"] = true,
         ["Allowed Sacrifice"] = {""},
@@ -85,6 +94,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Perfection",
             "Cursed",
             "Reeler I",
+            "Mutation Hunter II",
         },
         ["Minimum Rod"] = "Element Rod",
     },
