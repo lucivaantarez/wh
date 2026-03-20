@@ -22,5 +22,5 @@ getgenv().Solix = {
         ["FPS Lock"] = 30, 
         ["Low CPU"] = false }
 }
-script_key="HyFmbhWguiBnAQvGXvAecQZwBxsVfCQo";
+script_key="ameuzvwjIzGEkkqbAKiMTnrxhfgOGJYD";
 loadstring(game:HttpGet("https://raw.githubusercontent.com/meobeo8/a/a/a"))()
