@@ -7,10 +7,10 @@ getgenv().Solix = {
             ["Title"] = "Destiny Marked" },
         Clan = { 
             ["Enable"] = true, 
-            ["Keep"] = {"Monarch"} },
+            ["Keep"] = {"Monarch", "Eminence"} },
         Race = { 
             ["Enable"] = true, 
-            ["Keep"] = {"Oni","Kitsune","Leviathan","Slime","Servant","Sunborn","Galevorn","Swordblessed"} },
+            ["Keep"] = {"Kitsune"} },
         Trait = { 
             ["Enable"] = true, 
             ["Keep"] = {"Overload","Cataclysm","Singularity","Celestial","Godspeed","Sovereign","Infinity","Malevolent"} },
@@ -19,8 +19,8 @@ getgenv().Solix = {
         ["Auto Kill Saber Until Full Title"] = true, 
         ["Farm Drops"] = true },
     Performance = { 
-        ["FPS Lock"] = 30, 
-        ["Low CPU"] = false }
+        ["FPS Lock"] = 10, 
+        ["Low CPU"] = true}
 }
-script_key="ameuzvwjIzGEkkqbAKiMTnrxhfgOGJYD";
+script_key="";
 loadstring(game:HttpGet("https://raw.githubusercontent.com/meobeo8/a/a/a"))()
